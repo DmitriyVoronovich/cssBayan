@@ -103,3 +103,98 @@ body {
     margin: 1em 0 1em 16.3rem;
     width: 28.5rem;
 }
+@media (max-width: 1050px) {
+    .header_wrapper {
+        width: 50rem;
+    }
+
+    .header_name {
+        margin: 0.5em 0.5em 0.5em 0;
+        font-size: 1.5em;
+    }
+
+    .meme_wrapper {
+        width: 50rem;
+    }
+
+    .meme_header_name {
+        margin: 0.5em 0.5em 0.5em 0;
+        font-size: 0.8em;
+    }
+
+    .meme_header_close {
+        display: none;
+        width: 1em;
+        height: 1em;
+        margin: 1em;
+    }
+
+    .meme_img {
+        display: none;
+        margin: 1em 0 1em 18.3rem;
+        width: 10.5rem;
+        height: 10.5rem;
+        border: 0.1em solid black;
+        border-radius: 0.8em;
+    }
+
+    .meme_img_full {
+        margin: 1em 0 1em 15.3rem;
+        width: 20.7rem;
+    }
+
+    .meme_img_f {
+        margin: 1em 0 1em 17.3rem;
+        width: 13.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .header_wrapper {
+        width: 18rem;
+    }
+
+    .header_name {
+        margin: 0.5em 0.5em 0.5em 0;
+        font-family: Caladea, serif;
+        font-weight: bolder;
+        font-size: 2em;
+    }
+
+    .meme_wrapper {
+        width: 18rem;
+        margin: 0 auto;
+    }
+
+    .meme_header_name {
+        margin: 0.2em 0.2em 0.2em 0;
+        font-size: 0.3em;
+        color: #e7b749;
+    }
+
+    .meme_header_close {
+        display: none;
+        width: 0.5em;
+        height: 0.5em;
+        margin: 0.5em;
+    }
+
+    .meme_img {
+        display: none;
+        margin: 0.3em 0 0.3em 7rem;
+        width: 5.5rem;
+        height: 5.5rem;
+        border: 0.1em solid black;
+        border-radius: 0.8em;
+    }
+
+    .meme_img_full {
+        margin: 0.3em 0 0.3em 6rem;
+        width: 7.7rem;
+    }
+
+    .meme_img_f {
+        margin: 0.3em 0 0.3em 5rem;
+        width: 8.5rem;
+    }
+}
